@@ -9,7 +9,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.PreparedStatement;
 
-public class humandeta {
+public class Review05 {
 
     public static void main(String[] args) {
         // 3. データベース接続と結果取得のための変数宣言
@@ -29,8 +29,6 @@ public class humandeta {
                 "root",
                 "24352435"
                 );
-
-
 
         // 4. DBとやりとりする窓口（PreparedStatementオブジェクト）の作成
         String sql = "SELECT name, age FROM person WHERE id =?";
